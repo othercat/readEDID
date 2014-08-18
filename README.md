@@ -6,6 +6,13 @@ readEDID is originally from the 10-years-old idea “ReadEDID” to get the LCD 
 Histroy
 -
 ---------
+version 1.0.1
+
+add support with `Homebrew`
+
+version 1.0.0
+
+update with initial source.
 
 first commit with the original Year2003 source. 
 
@@ -13,7 +20,7 @@ Requirement
 -
 ---------
 
-Mac OS X 10.6 and above version (10.10beta not tested)
+Mac OS X 10.6 and above version (10.10beta tested)
 
 Build+Install
 -

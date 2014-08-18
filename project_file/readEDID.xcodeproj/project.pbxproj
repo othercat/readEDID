@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EFFCD8D0199E1484000EDBC9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8CF199E1484000EDBC9 /* main.c */; };
-		EFFCD8D2199E1484000EDBC9 /* readEDID.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFFCD8D1199E1484000EDBC9 /* readEDID.1 */; };
+		EF50CA3619A1AB2800B8D456 /* handDisplayAll.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA2C19A1AB2800B8D456 /* handDisplayAll.c */; };
+		EF50CA3719A1AB2800B8D456 /* handDisplayNormal.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA2D19A1AB2800B8D456 /* handDisplayNormal.c */; };
+		EF50CA3819A1AB2800B8D456 /* handDisplayProductID.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA2E19A1AB2800B8D456 /* handDisplayProductID.c */; };
+		EF50CA3919A1AB2800B8D456 /* handEDID.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA2F19A1AB2800B8D456 /* handEDID.c */; };
+		EF50CA3A19A1AB2800B8D456 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA3019A1AB2800B8D456 /* main.c */; };
+		EF50CA3B19A1AB2800B8D456 /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA3219A1AB2800B8D456 /* output.c */; };
+		EF50CA3C19A1AB2800B8D456 /* usage.c in Sources */ = {isa = PBXBuildFile; fileRef = EF50CA3519A1AB2800B8D456 /* usage.c */; };
 		EFFCD8D9199E1500000EDBC9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFCD8D8199E1500000EDBC9 /* IOKit.framework */; };
-		EFFCD8E0199E1707000EDBC9 /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8DD199E1707000EDBC9 /* output.c */; };
-		EFFCD8E1199E1707000EDBC9 /* usage.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8DF199E1707000EDBC9 /* usage.c */; };
-		EFFCD8E7199E1AD3000EDBC9 /* handDisplayAll.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8E6199E1AD3000EDBC9 /* handDisplayAll.c */; };
 		EFFCD8E9199E1C81000EDBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFCD8E8199E1C81000EDBC9 /* Foundation.framework */; };
-		EFFCD8ED199E1EA8000EDBC9 /* handEDID.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8EC199E1EA8000EDBC9 /* handEDID.c */; };
-		EFFCD8F0199E27D8000EDBC9 /* handDisplayNormal.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8EF199E27D8000EDBC9 /* handDisplayNormal.c */; };
-		EFFCD8F2199E2908000EDBC9 /* handDisplayProductID.c in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8F1199E2908000EDBC9 /* handDisplayProductID.c */; };
+		EFFCD8F4199F5030000EDBC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFCD8F3199F5030000EDBC9 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,30 +26,30 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				EFFCD8D2199E1484000EDBC9 /* readEDID.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF50CA2919A1AB2800B8D456 /* bless_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bless_private.h; sourceTree = "<group>"; };
+		EF50CA2A19A1AB2800B8D456 /* blessedid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blessedid.h; sourceTree = "<group>"; };
+		EF50CA2B19A1AB2800B8D456 /* enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enums.h; sourceTree = "<group>"; };
+		EF50CA2C19A1AB2800B8D456 /* handDisplayAll.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayAll.c; sourceTree = "<group>"; };
+		EF50CA2D19A1AB2800B8D456 /* handDisplayNormal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayNormal.c; sourceTree = "<group>"; };
+		EF50CA2E19A1AB2800B8D456 /* handDisplayProductID.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayProductID.c; sourceTree = "<group>"; };
+		EF50CA2F19A1AB2800B8D456 /* handEDID.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handEDID.c; sourceTree = "<group>"; };
+		EF50CA3019A1AB2800B8D456 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EF50CA3119A1AB2800B8D456 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		EF50CA3219A1AB2800B8D456 /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		EF50CA3319A1AB2800B8D456 /* protos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protos.h; sourceTree = "<group>"; };
+		EF50CA3419A1AB2800B8D456 /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+		EF50CA3519A1AB2800B8D456 /* usage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usage.c; sourceTree = "<group>"; };
+		EF50CA3E19A1E26800B8D456 /* readedid.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = readedid.1; path = ../readEDID/doc/readedid.1; sourceTree = "<group>"; };
 		EFFCD8C9199E1483000EDBC9 /* readEDID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = readEDID; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFFCD8CF199E1484000EDBC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		EFFCD8D1199E1484000EDBC9 /* readEDID.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = readEDID.1; path = readEDID/readEDID.1; sourceTree = "<group>"; };
 		EFFCD8D8199E1500000EDBC9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		EFFCD8DA199E1707000EDBC9 /* bless_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bless_private.h; sourceTree = "<group>"; };
-		EFFCD8DB199E1707000EDBC9 /* blessedid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blessedid.h; sourceTree = "<group>"; };
-		EFFCD8DC199E1707000EDBC9 /* enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enums.h; sourceTree = "<group>"; };
-		EFFCD8DD199E1707000EDBC9 /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
-		EFFCD8DE199E1707000EDBC9 /* protos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protos.h; sourceTree = "<group>"; };
-		EFFCD8DF199E1707000EDBC9 /* usage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usage.c; sourceTree = "<group>"; };
-		EFFCD8E2199E1734000EDBC9 /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
-		EFFCD8E6199E1AD3000EDBC9 /* handDisplayAll.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayAll.c; sourceTree = "<group>"; };
 		EFFCD8E8199E1C81000EDBC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EFFCD8EC199E1EA8000EDBC9 /* handEDID.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handEDID.c; sourceTree = "<group>"; };
-		EFFCD8EE199E1F10000EDBC9 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
-		EFFCD8EF199E27D8000EDBC9 /* handDisplayNormal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayNormal.c; sourceTree = "<group>"; };
-		EFFCD8F1199E2908000EDBC9 /* handDisplayProductID.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = handDisplayProductID.c; sourceTree = "<group>"; };
+		EFFCD8F3199F5030000EDBC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFCD8F4199F5030000EDBC9 /* CoreGraphics.framework in Frameworks */,
 				EFFCD8E9199E1C81000EDBC9 /* Foundation.framework in Frameworks */,
 				EFFCD8D9199E1500000EDBC9 /* IOKit.framework in Frameworks */,
 			);
@@ -86,6 +87,7 @@
 		EFFCD8CB199E1483000EDBC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFFCD8F3199F5030000EDBC9 /* CoreGraphics.framework */,
 				EFFCD8E8199E1C81000EDBC9 /* Foundation.framework */,
 				EFFCD8D8199E1500000EDBC9 /* IOKit.framework */,
 			);
@@ -95,27 +97,28 @@
 		EFFCD8CE199E1484000EDBC9 /* readEDID */ = {
 			isa = PBXGroup;
 			children = (
-				EFFCD8CF199E1484000EDBC9 /* main.c */,
-				EFFCD8EE199E1F10000EDBC9 /* modes.h */,
-				EFFCD8EC199E1EA8000EDBC9 /* handEDID.c */,
-				EFFCD8E6199E1AD3000EDBC9 /* handDisplayAll.c */,
-				EFFCD8EF199E27D8000EDBC9 /* handDisplayNormal.c */,
-				EFFCD8F1199E2908000EDBC9 /* handDisplayProductID.c */,
-				EFFCD8E2199E1734000EDBC9 /* structs.h */,
-				EFFCD8DA199E1707000EDBC9 /* bless_private.h */,
-				EFFCD8DB199E1707000EDBC9 /* blessedid.h */,
-				EFFCD8DC199E1707000EDBC9 /* enums.h */,
-				EFFCD8DD199E1707000EDBC9 /* output.c */,
-				EFFCD8DE199E1707000EDBC9 /* protos.h */,
-				EFFCD8DF199E1707000EDBC9 /* usage.c */,
+				EF50CA2919A1AB2800B8D456 /* bless_private.h */,
+				EF50CA2A19A1AB2800B8D456 /* blessedid.h */,
+				EF50CA2B19A1AB2800B8D456 /* enums.h */,
+				EF50CA2C19A1AB2800B8D456 /* handDisplayAll.c */,
+				EF50CA2D19A1AB2800B8D456 /* handDisplayNormal.c */,
+				EF50CA2E19A1AB2800B8D456 /* handDisplayProductID.c */,
+				EF50CA2F19A1AB2800B8D456 /* handEDID.c */,
+				EF50CA3019A1AB2800B8D456 /* main.c */,
+				EF50CA3119A1AB2800B8D456 /* modes.h */,
+				EF50CA3219A1AB2800B8D456 /* output.c */,
+				EF50CA3319A1AB2800B8D456 /* protos.h */,
+				EF50CA3419A1AB2800B8D456 /* structs.h */,
+				EF50CA3519A1AB2800B8D456 /* usage.c */,
 			);
-			path = readEDID;
+			name = readEDID;
+			path = ../readEDID/readEDID;
 			sourceTree = "<group>";
 		};
 		EFFCD8E3199E1776000EDBC9 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				EFFCD8D1199E1484000EDBC9 /* readEDID.1 */,
+				EF50CA3E19A1E26800B8D456 /* readedid.1 */,
 			);
 			name = Documentation;
 			sourceTree = "<group>";
@@ -171,13 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFFCD8E1199E1707000EDBC9 /* usage.c in Sources */,
-				EFFCD8E0199E1707000EDBC9 /* output.c in Sources */,
-				EFFCD8F2199E2908000EDBC9 /* handDisplayProductID.c in Sources */,
-				EFFCD8F0199E27D8000EDBC9 /* handDisplayNormal.c in Sources */,
-				EFFCD8ED199E1EA8000EDBC9 /* handEDID.c in Sources */,
-				EFFCD8D0199E1484000EDBC9 /* main.c in Sources */,
-				EFFCD8E7199E1AD3000EDBC9 /* handDisplayAll.c in Sources */,
+				EF50CA3B19A1AB2800B8D456 /* output.c in Sources */,
+				EF50CA3C19A1AB2800B8D456 /* usage.c in Sources */,
+				EF50CA3A19A1AB2800B8D456 /* main.c in Sources */,
+				EF50CA3919A1AB2800B8D456 /* handEDID.c in Sources */,
+				EF50CA3719A1AB2800B8D456 /* handDisplayNormal.c in Sources */,
+				EF50CA3819A1AB2800B8D456 /* handDisplayProductID.c in Sources */,
+				EF50CA3619A1AB2800B8D456 /* handDisplayAll.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
