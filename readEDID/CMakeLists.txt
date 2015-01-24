@@ -1,6 +1,6 @@
 project(readedid)
 
-set(CMAKE_OSX_SYSROOT macosx10.8)
+set(CMAKE_OSX_SYSROOT macosx10.9)
 set(CMAKE_OSX_ARCHITECTURES $(ARCHS_STANDARD_64_BIT))
 set(CMAKE_C_FLAGS "-x objective-c")
 set(CMAKE_CXX_FLAGS "-x objective-c++")

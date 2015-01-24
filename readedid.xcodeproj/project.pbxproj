@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              476F536915104E44B971F2D4 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1E489ADE705B493AA60479B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            3FF9DDAEBB104345B2E03312 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            6C6BA55CA3E5470B8EAC4487 /* PBXTargetDependency */,
+                            BA10B97C9C1E48ADBAAEEDFA /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              2BB71B9FF87E4A369480C072 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 680072E2DF5441D0AB9F5976 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            3ED5A52F13D446BC925A94C3 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+AB2429CB8A604B08B1857D23 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+3F547FE3B9B244B79815E871 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXBuildFile; fileRef = FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */; settings = { COMPILER_FLAGS = ""; }; };
+32FBA26A0F444C79907562E8 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXBuildFile; fileRef = 4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */; settings = { COMPILER_FLAGS = ""; }; };
+87D04801FCBA42B5B97F66A0 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXBuildFile; fileRef = 4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */; settings = { COMPILER_FLAGS = ""; }; };
+BCB94C42179C4BA58E8991A6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXBuildFile; fileRef = 6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */; settings = { COMPILER_FLAGS = ""; }; };
+1A1DEB74D99F47CE8E696D15 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXBuildFile; fileRef = D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */; settings = { COMPILER_FLAGS = ""; }; };
+85192D3D4A4A4020AE21A0CC /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXBuildFile; fileRef = 5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */; settings = { COMPILER_FLAGS = ""; }; };
+54525654ACD74962A9E47700 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXBuildFile; fileRef = 3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */; settings = { COMPILER_FLAGS = ""; }; };
+5CA4F15FEF474E5AAA1CDC85 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXBuildFile; fileRef = 98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */; settings = { COMPILER_FLAGS = ""; }; };
+E87E111E919C4BD69B951D5C /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXBuildFile; fileRef = 8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */; settings = { COMPILER_FLAGS = ""; }; };
+3A27DCE9212549869242554E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXBuildFile; fileRef = F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */; settings = { COMPILER_FLAGS = ""; }; };
+399E62C0A7094975AB95DD3A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXBuildFile; fileRef = 0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */; settings = { COMPILER_FLAGS = ""; }; };
+C60374FCB49445D98D677B29 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXBuildFile; fileRef = 61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */; settings = { COMPILER_FLAGS = ""; }; };
+4197BD4BA89146D08405A2F2 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXBuildFile; fileRef = 763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              3E9D5BDBF3B44EA98D044103 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              86A5C2182A984714A65147F9 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              FC8E8648C8A64B7FB279897A /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              E27987F4E9934BDA8FB1C827 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              6945249636CF410990338C51 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              0C33DB84956E44F980010784 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2BB71B9FF87E4A369480C072;
+                     remoteInfo = ZERO_CHECK;
+              };
+              3280C720115C472D8F537F41 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DC35AA9977D74D48BC9DD23B;
+                     remoteInfo = readedid;
+              };
+              5D993CC86E3047B49E291C05 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2BB71B9FF87E4A369480C072;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+232C4499074E452BAFD44ED3 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+38E665CFF2B3460FA1F2ABAB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "readEDID/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "bless_private.h"; path = "readEDID/bless_private.h"; sourceTree = SOURCE_ROOT; };
+4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "blessedid.h"; path = "readEDID/blessedid.h"; sourceTree = SOURCE_ROOT; };
+4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "enums.h"; path = "readEDID/enums.h"; sourceTree = SOURCE_ROOT; };
+6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayAll.c"; path = "readEDID/handDisplayAll.c"; sourceTree = SOURCE_ROOT; };
+D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayNormal.c"; path = "readEDID/handDisplayNormal.c"; sourceTree = SOURCE_ROOT; };
+5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayProductID.c"; path = "readEDID/handDisplayProductID.c"; sourceTree = SOURCE_ROOT; };
+3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handEDID.c"; path = "readEDID/handEDID.c"; sourceTree = SOURCE_ROOT; };
+98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "main.c"; path = "readEDID/main.c"; sourceTree = SOURCE_ROOT; };
+8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "modes.h"; path = "readEDID/modes.h"; sourceTree = SOURCE_ROOT; };
+F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "output.c"; path = "readEDID/output.c"; sourceTree = SOURCE_ROOT; };
+0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "protos.h"; path = "readEDID/protos.h"; sourceTree = SOURCE_ROOT; };
+61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "structs.h"; path = "readEDID/structs.h"; sourceTree = SOURCE_ROOT; };
+763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "usage.c"; path = "readEDID/usage.c"; sourceTree = SOURCE_ROOT; };
+4E1CFF68774445D39BA5489C /* readedid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = readedid; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              31B6AAD8F3F94D9BA1CEC011  = {
+                     isa = PBXGroup;
+                     children = (
+                            A74B93606A7A4DBEB6F90A23 /* Sources */,
+                            E1615A6EB7D84328A883A6F7 /* Resources */,
+                            8E448AD05438444785F06BC2 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              A74B93606A7A4DBEB6F90A23 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            768432A8A555401795470D43 /* ALL_BUILD */,
+                            ABF1ECD8C8B74766BE98F347 /* ZERO_CHECK */,
+                            2366EF899C7E4CC1BFBE86F0 /* readedid */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E1615A6EB7D84328A883A6F7 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              768432A8A555401795470D43 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BAD55E26254A43708A27AFEB /* CMake Rules */,
+                            232C4499074E452BAFD44ED3 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              BAD55E26254A43708A27AFEB /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              ABF1ECD8C8B74766BE98F347 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CCC31D580478412BA21BBFCE /* CMake Rules */,
+                            38E665CFF2B3460FA1F2ABAB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              CCC31D580478412BA21BBFCE /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              2366EF899C7E4CC1BFBE86F0 /* readedid */ = {
+                     isa = PBXGroup;
+                     children = (
+                            16BD189362284E8DB27CCF6D /* Source Files */,
+                            8842708FF4AE459B8E7A5A83 /* Header Files */,
+                            EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */,
+                     );
+                     name = readedid;
+                     sourceTree = "<group>";
+              };
+              16BD189362284E8DB27CCF6D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
+                            D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
+                            5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
+                            3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
+                            98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
+                            F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
+                            763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              8842708FF4AE459B8E7A5A83 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */,
+                            4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */,
+                            4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */,
+                            8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */,
+                            0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */,
+                            61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              8E448AD05438444785F06BC2 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4E1CFF68774445D39BA5489C /* readedid */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              DC35AA9977D74D48BC9DD23B /* readedid */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = D16E16560C034081B66837C5 /* Build configuration list for PBXNativeTarget "readedid" */;
+                     buildPhases = (
+                            782748C177C94AB6A4CA6D32 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F5B40F81BBC54963B8B677A7 /* PBXTargetDependency */,
+                     );
+                     name = readedid;
+                     productName = readedid;
+                     productReference = 4E1CFF68774445D39BA5489C /* readedid */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              441FCFFA1F3E4E4FADA4942D /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 8D973398E61A4E8D87123522 /* Build configuration list for PBXProject  "readedid" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            86A5C2182A984714A65147F9 /* Debug */,
+                            FC8E8648C8A64B7FB279897A /* Release */,
+                            E27987F4E9934BDA8FB1C827 /* MinSizeRel */,
+                            6945249636CF410990338C51 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 31B6AAD8F3F94D9BA1CEC011;
+                     projectDirPath = readEDID;
+                     projectRoot = "";
+                     targets = (
+                            476F536915104E44B971F2D4 /* ALL_BUILD */,
+                            2BB71B9FF87E4A369480C072 /* ZERO_CHECK */,
+                            DC35AA9977D74D48BC9DD23B /* readedid */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              84563D58E3954051B548310F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3FF9DDAEBB104345B2E03312 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/lirichard/Developer/SourceCodes/github/readEDID -f /Users/lirichard/Developer/SourceCodes/github/readEDID/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              F3F4DE93A40342689184A85B /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3ED5A52F13D446BC925A94C3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/lirichard/Developer/SourceCodes/github/readEDID -f /Users/lirichard/Developer/SourceCodes/github/readEDID/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              782748C177C94AB6A4CA6D32 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            BCB94C42179C4BA58E8991A6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
+                            1A1DEB74D99F47CE8E696D15 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
+                            85192D3D4A4A4020AE21A0CC /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
+                            54525654ACD74962A9E47700 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
+                            5CA4F15FEF474E5AAA1CDC85 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
+                            3A27DCE9212549869242554E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
+                            4197BD4BA89146D08405A2F2 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              6C6BA55CA3E5470B8EAC4487 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2BB71B9FF87E4A369480C072 /* ZERO_CHECK */;
+                     targetProxy = 0C33DB84956E44F980010784 /* PBXContainerItemProxy */;
+              };
+              BA10B97C9C1E48ADBAAEEDFA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DC35AA9977D74D48BC9DD23B /* readedid */;
+                     targetProxy = 3280C720115C472D8F537F41 /* PBXContainerItemProxy */;
+              };
+              F5B40F81BBC54963B8B677A7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2BB71B9FF87E4A369480C072 /* ZERO_CHECK */;
+                     targetProxy = 5D993CC86E3047B49E291C05 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              FF8B1EB0A1C24ED8A1FF9683 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            SDKROOT = "macosx10.9";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/build;
+                     };
+                     name = Debug;
+              };
+              0FBD1722A0CC41D7B7280DB7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            SDKROOT = "macosx10.9";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/build;
+                     };
+                     name = Release;
+              };
+              21942BE1BA044EFE9C7B786B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            SDKROOT = "macosx10.9";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/build;
+                     };
+                     name = MinSizeRel;
+              };
+              AC515178564E4346BE97904E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            SDKROOT = "macosx10.9";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              669288BB1455492BA43352C0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              92B5F1D5622941938FB0C1F7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DF2AC0E9203A40E196555D4B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B13031F0791A4E3EB861CF5F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              0642ED70A7DF4103881787DA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3A62CD480AF34862A281940F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F2B966B0B01B4A8DB3E2B355 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3512DFF70B564DDB80A499C8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C60156E68E6F40428926769B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/lirichard/Developer/SourceCodes/github/readEDID/bin/Debug;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-x objective-c     ";
+                            OTHER_LDFLAGS = "-framework IOKit -framework Foundation -framework CoreGraphics -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = readedid;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F51D72D1581943D4B501BFD0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/lirichard/Developer/SourceCodes/github/readEDID/bin/Release;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-x objective-c     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "-framework IOKit -framework Foundation -framework CoreGraphics -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = readedid;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              9A10947C6DBC4E5A842D237F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/lirichard/Developer/SourceCodes/github/readEDID/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-x objective-c     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "-framework IOKit -framework Foundation -framework CoreGraphics -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = readedid;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2630D6063F004AB9B2B39327 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = /Users/lirichard/Developer/SourceCodes/github/readEDID/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-x objective-c        -DNDEBUG  ";
+                            OTHER_LDFLAGS = "-framework IOKit -framework Foundation -framework CoreGraphics -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = readedid;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              8D973398E61A4E8D87123522 /* Build configuration list for PBXProject  "readedid" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FF8B1EB0A1C24ED8A1FF9683 /* Debug */,
+                            0FBD1722A0CC41D7B7280DB7 /* Release */,
+                            21942BE1BA044EFE9C7B786B /* MinSizeRel */,
+                            AC515178564E4346BE97904E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1E489ADE705B493AA60479B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            669288BB1455492BA43352C0 /* Debug */,
+                            92B5F1D5622941938FB0C1F7 /* Release */,
+                            DF2AC0E9203A40E196555D4B /* MinSizeRel */,
+                            B13031F0791A4E3EB861CF5F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              680072E2DF5441D0AB9F5976 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0642ED70A7DF4103881787DA /* Debug */,
+                            3A62CD480AF34862A281940F /* Release */,
+                            F2B966B0B01B4A8DB3E2B355 /* MinSizeRel */,
+                            3512DFF70B564DDB80A499C8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D16E16560C034081B66837C5 /* Build configuration list for PBXNativeTarget "readedid" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C60156E68E6F40428926769B /* Debug */,
+                            F51D72D1581943D4B501BFD0 /* Release */,
+                            9A10947C6DBC4E5A842D237F /* MinSizeRel */,
+                            2630D6063F004AB9B2B39327 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 441FCFFA1F3E4E4FADA4942D;
+}
