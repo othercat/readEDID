@@ -7,24 +7,24 @@
        objects = {
 
 /* Begin PBXAggregateTarget section */
-              476F536915104E44B971F2D4 /* ALL_BUILD */ = {
+              E57AC7C4A3994DDD8843C007 /* ALL_BUILD */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = 1E489ADE705B493AA60479B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildConfigurationList = 395953D66C0941EEBF9D6198 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
                      buildPhases = (
-                            3FF9DDAEBB104345B2E03312 /* CMake Rules */,
+                            15E942A7DC154FA283270E8F /* CMake Rules */,
                      );
                      dependencies = (
-                            6C6BA55CA3E5470B8EAC4487 /* PBXTargetDependency */,
-                            BA10B97C9C1E48ADBAAEEDFA /* PBXTargetDependency */,
+                            B1CFACDA9B654EE198889764 /* PBXTargetDependency */,
+                            9BC88E0119E74361B5279303 /* PBXTargetDependency */,
                      );
                      name = ALL_BUILD;
                      productName = ALL_BUILD;
               };
-              2BB71B9FF87E4A369480C072 /* ZERO_CHECK */ = {
+              A5DF57E3C37045F2938D8411 /* ZERO_CHECK */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = 680072E2DF5441D0AB9F5976 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildConfigurationList = 68B1A74C0BC24D9195DF5B5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
                      buildPhases = (
-                            3ED5A52F13D446BC925A94C3 /* CMake Rules */,
+                            D3DF5673BE1048FCAA9FB470 /* CMake Rules */,
                      );
                      dependencies = (
                      );
@@ -34,48 +34,48 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-AB2429CB8A604B08B1857D23 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
-3F547FE3B9B244B79815E871 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXBuildFile; fileRef = FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */; settings = { COMPILER_FLAGS = ""; }; };
-32FBA26A0F444C79907562E8 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXBuildFile; fileRef = 4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */; settings = { COMPILER_FLAGS = ""; }; };
-87D04801FCBA42B5B97F66A0 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXBuildFile; fileRef = 4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */; settings = { COMPILER_FLAGS = ""; }; };
-BCB94C42179C4BA58E8991A6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXBuildFile; fileRef = 6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */; settings = { COMPILER_FLAGS = ""; }; };
-1A1DEB74D99F47CE8E696D15 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXBuildFile; fileRef = D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */; settings = { COMPILER_FLAGS = ""; }; };
-85192D3D4A4A4020AE21A0CC /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXBuildFile; fileRef = 5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */; settings = { COMPILER_FLAGS = ""; }; };
-54525654ACD74962A9E47700 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXBuildFile; fileRef = 3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */; settings = { COMPILER_FLAGS = ""; }; };
-5CA4F15FEF474E5AAA1CDC85 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXBuildFile; fileRef = 98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */; settings = { COMPILER_FLAGS = ""; }; };
-E87E111E919C4BD69B951D5C /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXBuildFile; fileRef = 8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */; settings = { COMPILER_FLAGS = ""; }; };
-3A27DCE9212549869242554E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXBuildFile; fileRef = F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */; settings = { COMPILER_FLAGS = ""; }; };
-399E62C0A7094975AB95DD3A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXBuildFile; fileRef = 0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */; settings = { COMPILER_FLAGS = ""; }; };
-C60374FCB49445D98D677B29 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXBuildFile; fileRef = 61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */; settings = { COMPILER_FLAGS = ""; }; };
-4197BD4BA89146D08405A2F2 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXBuildFile; fileRef = 763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */; settings = { COMPILER_FLAGS = ""; }; };
+A6A9A97BC63640CA8735A975 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 53A678CEA3AF454E95C01AA6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+E208D7168A684436B01A5004 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXBuildFile; fileRef = B752C7A4A67446CCA23C7F0A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */; settings = { COMPILER_FLAGS = ""; }; };
+BCF6BED55E294AE5870B22B6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXBuildFile; fileRef = ECB23C1E6E9748F1909BEA9D /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */; settings = { COMPILER_FLAGS = ""; }; };
+F59E9434351A4E38B94B8507 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXBuildFile; fileRef = B221FBA783DD4E3FB8FFA48A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */; settings = { COMPILER_FLAGS = ""; }; };
+6FCFC40900D144B0AECC25C9 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXBuildFile; fileRef = 9E5E205887F049B5965C78F8 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */; settings = { COMPILER_FLAGS = ""; }; };
+86B772A06F184CEA953CA2D1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXBuildFile; fileRef = 0285F12FC3E34310940CD044 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */; settings = { COMPILER_FLAGS = ""; }; };
+19BCBAF4B03D40A49E16C426 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXBuildFile; fileRef = 030464BFFD004A49B2E1D458 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */; settings = { COMPILER_FLAGS = ""; }; };
+834E1279ABAD4315B1053025 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXBuildFile; fileRef = EE74DFDEFD194A7390603D75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */; settings = { COMPILER_FLAGS = ""; }; };
+89657C44503A4761803F180B /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXBuildFile; fileRef = 482CD35BE5654FA581477B26 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */; settings = { COMPILER_FLAGS = ""; }; };
+C6D9D03F390A421F8CB31696 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXBuildFile; fileRef = 623E5FA4562948669643961C /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */; settings = { COMPILER_FLAGS = ""; }; };
+837B7D06DEDF4A90B98B06B4 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXBuildFile; fileRef = CD886564F5104890B174386E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */; settings = { COMPILER_FLAGS = ""; }; };
+2F30FADC57CC43749C5F6188 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXBuildFile; fileRef = 5DE70A81564A4635B25BD7D5 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */; settings = { COMPILER_FLAGS = ""; }; };
+9AC89854D76F4A518FD4CE45 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXBuildFile; fileRef = C91FE2014D874A9B9C0EE07E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */; settings = { COMPILER_FLAGS = ""; }; };
+A9832FC97FCF4E55AE64EBD6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXBuildFile; fileRef = B0020CCDDC2548B4ADED7D86 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */; settings = { COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-              3E9D5BDBF3B44EA98D044103 /*  */ = {
+              9439904DC04C4C5F94FA3653 /*  */ = {
                      isa = PBXBuildStyle;
               };
-              86A5C2182A984714A65147F9 /* Debug */ = {
+              EC59F1D7F8714A5EB557AA9C /* Debug */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Debug;
               };
-              FC8E8648C8A64B7FB279897A /* Release */ = {
+              A2A825FAB9D54AF79FF143C8 /* Release */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Release;
               };
-              E27987F4E9934BDA8FB1C827 /* MinSizeRel */ = {
+              7E44405B06334B899F78000C /* MinSizeRel */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = MinSizeRel;
               };
-              6945249636CF410990338C51 /* RelWithDebInfo */ = {
+              A1CC96D52044435BA1E44F0E /* RelWithDebInfo */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
@@ -85,149 +85,149 @@ C60374FCB49445D98D677B29 /* /Users/lirichard/Developer/SourceCodes/github/readED
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-              0C33DB84956E44F980010784 /* PBXContainerItemProxy */ = {
+              5FCA63418CF640CABDDD1482 /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
-                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
+                     containerPortal = E7637BEFFA87457FBBA8AA73 /* Project object */;
                      proxyType = 1;
-                     remoteGlobalIDString = 2BB71B9FF87E4A369480C072;
-                     remoteInfo = ZERO_CHECK;
-              };
-              3280C720115C472D8F537F41 /* PBXContainerItemProxy */ = {
-                     isa = PBXContainerItemProxy;
-                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
-                     proxyType = 1;
-                     remoteGlobalIDString = DC35AA9977D74D48BC9DD23B;
+                     remoteGlobalIDString = 9974A664C4BC4B8B91054066;
                      remoteInfo = readedid;
               };
-              5D993CC86E3047B49E291C05 /* PBXContainerItemProxy */ = {
+              78D5730671974E6B8B41C5DB /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
-                     containerPortal = 441FCFFA1F3E4E4FADA4942D /* Project object */;
+                     containerPortal = E7637BEFFA87457FBBA8AA73 /* Project object */;
                      proxyType = 1;
-                     remoteGlobalIDString = 2BB71B9FF87E4A369480C072;
+                     remoteGlobalIDString = A5DF57E3C37045F2938D8411;
+                     remoteInfo = ZERO_CHECK;
+              };
+              8A68ED206E764C9BB79F606A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E7637BEFFA87457FBBA8AA73 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A5DF57E3C37045F2938D8411;
                      remoteInfo = ZERO_CHECK;
               };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-232C4499074E452BAFD44ED3 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-38E665CFF2B3460FA1F2ABAB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "readEDID/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "bless_private.h"; path = "readEDID/bless_private.h"; sourceTree = SOURCE_ROOT; };
-4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "blessedid.h"; path = "readEDID/blessedid.h"; sourceTree = SOURCE_ROOT; };
-4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "enums.h"; path = "readEDID/enums.h"; sourceTree = SOURCE_ROOT; };
-6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayAll.c"; path = "readEDID/handDisplayAll.c"; sourceTree = SOURCE_ROOT; };
-D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayNormal.c"; path = "readEDID/handDisplayNormal.c"; sourceTree = SOURCE_ROOT; };
-5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayProductID.c"; path = "readEDID/handDisplayProductID.c"; sourceTree = SOURCE_ROOT; };
-3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handEDID.c"; path = "readEDID/handEDID.c"; sourceTree = SOURCE_ROOT; };
-98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "main.c"; path = "readEDID/main.c"; sourceTree = SOURCE_ROOT; };
-8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "modes.h"; path = "readEDID/modes.h"; sourceTree = SOURCE_ROOT; };
-F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "output.c"; path = "readEDID/output.c"; sourceTree = SOURCE_ROOT; };
-0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "protos.h"; path = "readEDID/protos.h"; sourceTree = SOURCE_ROOT; };
-61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "structs.h"; path = "readEDID/structs.h"; sourceTree = SOURCE_ROOT; };
-763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "usage.c"; path = "readEDID/usage.c"; sourceTree = SOURCE_ROOT; };
-4E1CFF68774445D39BA5489C /* readedid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = readedid; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+E7AB4BC3C2494CFDB120EC24 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+91D590E553734E89A86BFC6B /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+53A678CEA3AF454E95C01AA6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "readEDID/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B752C7A4A67446CCA23C7F0A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "bless_private.h"; path = "readEDID/bless_private.h"; sourceTree = SOURCE_ROOT; };
+ECB23C1E6E9748F1909BEA9D /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "blessedid.h"; path = "readEDID/blessedid.h"; sourceTree = SOURCE_ROOT; };
+B221FBA783DD4E3FB8FFA48A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "enums.h"; path = "readEDID/enums.h"; sourceTree = SOURCE_ROOT; };
+9E5E205887F049B5965C78F8 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayAll.c"; path = "readEDID/handDisplayAll.c"; sourceTree = SOURCE_ROOT; };
+0285F12FC3E34310940CD044 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayNormal.c"; path = "readEDID/handDisplayNormal.c"; sourceTree = SOURCE_ROOT; };
+030464BFFD004A49B2E1D458 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handDisplayProductID.c"; path = "readEDID/handDisplayProductID.c"; sourceTree = SOURCE_ROOT; };
+EE74DFDEFD194A7390603D75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "handEDID.c"; path = "readEDID/handEDID.c"; sourceTree = SOURCE_ROOT; };
+482CD35BE5654FA581477B26 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "main.c"; path = "readEDID/main.c"; sourceTree = SOURCE_ROOT; };
+623E5FA4562948669643961C /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "modes.h"; path = "readEDID/modes.h"; sourceTree = SOURCE_ROOT; };
+CD886564F5104890B174386E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "output.c"; path = "readEDID/output.c"; sourceTree = SOURCE_ROOT; };
+5DE70A81564A4635B25BD7D5 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "protos.h"; path = "readEDID/protos.h"; sourceTree = SOURCE_ROOT; };
+C91FE2014D874A9B9C0EE07E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "structs.h"; path = "readEDID/structs.h"; sourceTree = SOURCE_ROOT; };
+B0020CCDDC2548B4ADED7D86 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "usage.c"; path = "readEDID/usage.c"; sourceTree = SOURCE_ROOT; };
+077DF617266B412AB5FF8E84 /* readedid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = readedid; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-              31B6AAD8F3F94D9BA1CEC011  = {
+              0E366CFCCEE144B09DD25496  = {
                      isa = PBXGroup;
                      children = (
-                            A74B93606A7A4DBEB6F90A23 /* Sources */,
-                            E1615A6EB7D84328A883A6F7 /* Resources */,
-                            8E448AD05438444785F06BC2 /* Products */,
+                            C5DEA79CC6094C8E83CA2E66 /* Sources */,
+                            D471E716FB14467AB6A9A1B8 /* Resources */,
+                            0B45D33EC0BA4ABF9A5EF7DD /* Products */,
                      );
                      sourceTree = "<group>";
               };
-              A74B93606A7A4DBEB6F90A23 /* Sources */ = {
+              C5DEA79CC6094C8E83CA2E66 /* Sources */ = {
                      isa = PBXGroup;
                      children = (
-                            768432A8A555401795470D43 /* ALL_BUILD */,
-                            ABF1ECD8C8B74766BE98F347 /* ZERO_CHECK */,
-                            2366EF899C7E4CC1BFBE86F0 /* readedid */,
+                            735E05471B7348E18EEE03B2 /* ALL_BUILD */,
+                            3D1CA303207F4E9E82A8E288 /* ZERO_CHECK */,
+                            8ADBCCCC240D4014B3A05A47 /* readedid */,
                      );
                      name = Sources;
                      sourceTree = "<group>";
               };
-              E1615A6EB7D84328A883A6F7 /* Resources */ = {
+              D471E716FB14467AB6A9A1B8 /* Resources */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = Resources;
                      sourceTree = "<group>";
               };
-              768432A8A555401795470D43 /* ALL_BUILD */ = {
+              735E05471B7348E18EEE03B2 /* ALL_BUILD */ = {
                      isa = PBXGroup;
                      children = (
-                            BAD55E26254A43708A27AFEB /* CMake Rules */,
-                            232C4499074E452BAFD44ED3 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
+                            55CC98B3C401421CA0B6EF5A /* CMake Rules */,
+                            E7AB4BC3C2494CFDB120EC24 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
                      );
                      name = ALL_BUILD;
                      sourceTree = "<group>";
               };
-              BAD55E26254A43708A27AFEB /* CMake Rules */ = {
+              55CC98B3C401421CA0B6EF5A /* CMake Rules */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = "CMake Rules";
                      sourceTree = "<group>";
               };
-              ABF1ECD8C8B74766BE98F347 /* ZERO_CHECK */ = {
+              3D1CA303207F4E9E82A8E288 /* ZERO_CHECK */ = {
                      isa = PBXGroup;
                      children = (
-                            CCC31D580478412BA21BBFCE /* CMake Rules */,
-                            38E665CFF2B3460FA1F2ABAB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
+                            F5833226870E48AA8FAE1066 /* CMake Rules */,
+                            91D590E553734E89A86BFC6B /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/CMakeLists.txt */,
                      );
                      name = ZERO_CHECK;
                      sourceTree = "<group>";
               };
-              CCC31D580478412BA21BBFCE /* CMake Rules */ = {
+              F5833226870E48AA8FAE1066 /* CMake Rules */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = "CMake Rules";
                      sourceTree = "<group>";
               };
-              2366EF899C7E4CC1BFBE86F0 /* readedid */ = {
+              8ADBCCCC240D4014B3A05A47 /* readedid */ = {
                      isa = PBXGroup;
                      children = (
-                            16BD189362284E8DB27CCF6D /* Source Files */,
-                            8842708FF4AE459B8E7A5A83 /* Header Files */,
-                            EB20715D79644C4CA543A626 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */,
+                            0D93DA4A982A421BBF6D48FE /* Source Files */,
+                            D137C3EF405646C090C34B0F /* Header Files */,
+                            53A678CEA3AF454E95C01AA6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/CMakeLists.txt */,
                      );
                      name = readedid;
                      sourceTree = "<group>";
               };
-              16BD189362284E8DB27CCF6D /* Source Files */ = {
+              0D93DA4A982A421BBF6D48FE /* Source Files */ = {
                      isa = PBXGroup;
                      children = (
-                            6E05413A946F47888FCB7122 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
-                            D4E0198BFAEC4D94B16C7B33 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
-                            5FADDED730544BCA88485E75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
-                            3AF1A49B13BF40B086CEF329 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
-                            98B87661CD4C452B97B65456 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
-                            F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
-                            763E0F43C8104C70979C88DB /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
+                            9E5E205887F049B5965C78F8 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
+                            0285F12FC3E34310940CD044 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
+                            030464BFFD004A49B2E1D458 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
+                            EE74DFDEFD194A7390603D75 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
+                            482CD35BE5654FA581477B26 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
+                            CD886564F5104890B174386E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
+                            B0020CCDDC2548B4ADED7D86 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
                      );
                      name = "Source Files";
                      sourceTree = "<group>";
               };
-              8842708FF4AE459B8E7A5A83 /* Header Files */ = {
+              D137C3EF405646C090C34B0F /* Header Files */ = {
                      isa = PBXGroup;
                      children = (
-                            FAA7A99B412E43DC8FAF3B07 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */,
-                            4ED2FE3FC4754CE783334306 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */,
-                            4450772E0DFA4E9F99A20B0F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */,
-                            8CD6C1889A8E4604B9564101 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */,
-                            0F47D0333A3D491690553BF1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */,
-                            61640C06475E4E399F18A13F /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */,
+                            B752C7A4A67446CCA23C7F0A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/bless_private.h */,
+                            ECB23C1E6E9748F1909BEA9D /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/blessedid.h */,
+                            B221FBA783DD4E3FB8FFA48A /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/enums.h */,
+                            623E5FA4562948669643961C /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/modes.h */,
+                            5DE70A81564A4635B25BD7D5 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/protos.h */,
+                            C91FE2014D874A9B9C0EE07E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/structs.h */,
                      );
                      name = "Header Files";
                      sourceTree = "<group>";
               };
-              8E448AD05438444785F06BC2 /* Products */ = {
+              0B45D33EC0BA4ABF9A5EF7DD /* Products */ = {
                      isa = PBXGroup;
                      children = (
-                            4E1CFF68774445D39BA5489C /* readedid */,
+                            077DF617266B412AB5FF8E84 /* readedid */,
                      );
                      name = Products;
                      sourceTree = "<group>";
@@ -235,54 +235,54 @@ F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readED
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-              DC35AA9977D74D48BC9DD23B /* readedid */ = {
+              9974A664C4BC4B8B91054066 /* readedid */ = {
                      isa = PBXNativeTarget;
-                     buildConfigurationList = D16E16560C034081B66837C5 /* Build configuration list for PBXNativeTarget "readedid" */;
+                     buildConfigurationList = AB90710723EC4AFBA69F505B /* Build configuration list for PBXNativeTarget "readedid" */;
                      buildPhases = (
-                            782748C177C94AB6A4CA6D32 /* Sources */,
+                            C35652CB36F54349A660D41D /* Sources */,
                      );
                      buildRules = (
                      );
                      dependencies = (
-                            F5B40F81BBC54963B8B677A7 /* PBXTargetDependency */,
+                            584CF16EE089448C83A603A8 /* PBXTargetDependency */,
                      );
                      name = readedid;
                      productName = readedid;
-                     productReference = 4E1CFF68774445D39BA5489C /* readedid */;
+                     productReference = 077DF617266B412AB5FF8E84 /* readedid */;
                      productType = "com.apple.product-type.tool";
               };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-              441FCFFA1F3E4E4FADA4942D /* Project object */ = {
+              E7637BEFFA87457FBBA8AA73 /* Project object */ = {
                      isa = PBXProject;
                      attributes = {
                             BuildIndependentTargetsInParallel = YES;
                      };
-                     buildConfigurationList = 8D973398E61A4E8D87123522 /* Build configuration list for PBXProject  "readedid" */;
+                     buildConfigurationList = 6733926084F346B19B6E126F /* Build configuration list for PBXProject  "readedid" */;
                      buildSettings = {
                      };
                      buildStyles = (
-                            86A5C2182A984714A65147F9 /* Debug */,
-                            FC8E8648C8A64B7FB279897A /* Release */,
-                            E27987F4E9934BDA8FB1C827 /* MinSizeRel */,
-                            6945249636CF410990338C51 /* RelWithDebInfo */,
+                            EC59F1D7F8714A5EB557AA9C /* Debug */,
+                            A2A825FAB9D54AF79FF143C8 /* Release */,
+                            7E44405B06334B899F78000C /* MinSizeRel */,
+                            A1CC96D52044435BA1E44F0E /* RelWithDebInfo */,
                      );
                      compatibilityVersion = "Xcode 3.2";
                      hasScannedForEncodings = 0;
-                     mainGroup = 31B6AAD8F3F94D9BA1CEC011;
+                     mainGroup = 0E366CFCCEE144B09DD25496;
                      projectDirPath = readEDID;
                      projectRoot = "";
                      targets = (
-                            476F536915104E44B971F2D4 /* ALL_BUILD */,
-                            2BB71B9FF87E4A369480C072 /* ZERO_CHECK */,
-                            DC35AA9977D74D48BC9DD23B /* readedid */,
+                            E57AC7C4A3994DDD8843C007 /* ALL_BUILD */,
+                            A5DF57E3C37045F2938D8411 /* ZERO_CHECK */,
+                            9974A664C4BC4B8B91054066 /* readedid */,
                      );
               };
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-              84563D58E3954051B548310F /*  */ = {
+              A9BFC2E5C2CE4272BF2E3BFC /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -297,7 +297,7 @@ F2F9D4C50DCE4B369A716E96 /* /Users/lirichard/Developer/SourceCodes/github/readED
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              3FF9DDAEBB104345B2E03312 /* CMake Rules */ = {
+              15E942A7DC154FA283270E8F /* CMake Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -308,7 +308,7 @@ exit 0";
                      shellScript = "make -C /Users/lirichard/Developer/SourceCodes/github/readEDID -f /Users/lirichard/Developer/SourceCodes/github/readEDID/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
-              F3F4DE93A40342689184A85B /*  */ = {
+              E793FD71351F455AB936EC1C /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -323,7 +323,7 @@ exit 0";
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              3ED5A52F13D446BC925A94C3 /* CMake Rules */ = {
+              D3DF5673BE1048FCAA9FB470 /* CMake Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -337,42 +337,42 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-              782748C177C94AB6A4CA6D32 /* Sources */ = {
+              C35652CB36F54349A660D41D /* Sources */ = {
                      isa = PBXSourcesBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
-                            BCB94C42179C4BA58E8991A6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
-                            1A1DEB74D99F47CE8E696D15 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
-                            85192D3D4A4A4020AE21A0CC /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
-                            54525654ACD74962A9E47700 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
-                            5CA4F15FEF474E5AAA1CDC85 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
-                            3A27DCE9212549869242554E /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
-                            4197BD4BA89146D08405A2F2 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
+                            6FCFC40900D144B0AECC25C9 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayAll.c */,
+                            86B772A06F184CEA953CA2D1 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayNormal.c */,
+                            19BCBAF4B03D40A49E16C426 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handDisplayProductID.c */,
+                            834E1279ABAD4315B1053025 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/handEDID.c */,
+                            89657C44503A4761803F180B /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/main.c */,
+                            837B7D06DEDF4A90B98B06B4 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/output.c */,
+                            A9832FC97FCF4E55AE64EBD6 /* /Users/lirichard/Developer/SourceCodes/github/readEDID/readEDID/readEDID/usage.c */,
                      );
                      runOnlyForDeploymentPostprocessing = 0;
               };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-              6C6BA55CA3E5470B8EAC4487 /* PBXTargetDependency */ = {
+              B1CFACDA9B654EE198889764 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = 2BB71B9FF87E4A369480C072 /* ZERO_CHECK */;
-                     targetProxy = 0C33DB84956E44F980010784 /* PBXContainerItemProxy */;
+                     target = 9974A664C4BC4B8B91054066 /* readedid */;
+                     targetProxy = 5FCA63418CF640CABDDD1482 /* PBXContainerItemProxy */;
               };
-              BA10B97C9C1E48ADBAAEEDFA /* PBXTargetDependency */ = {
+              9BC88E0119E74361B5279303 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = DC35AA9977D74D48BC9DD23B /* readedid */;
-                     targetProxy = 3280C720115C472D8F537F41 /* PBXContainerItemProxy */;
+                     target = A5DF57E3C37045F2938D8411 /* ZERO_CHECK */;
+                     targetProxy = 78D5730671974E6B8B41C5DB /* PBXContainerItemProxy */;
               };
-              F5B40F81BBC54963B8B677A7 /* PBXTargetDependency */ = {
+              584CF16EE089448C83A603A8 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = 2BB71B9FF87E4A369480C072 /* ZERO_CHECK */;
-                     targetProxy = 5D993CC86E3047B49E291C05 /* PBXContainerItemProxy */;
+                     target = A5DF57E3C37045F2938D8411 /* ZERO_CHECK */;
+                     targetProxy = 8A68ED206E764C9BB79F606A /* PBXContainerItemProxy */;
               };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-              FF8B1EB0A1C24ED8A1FF9683 /* Debug */ = {
+              EA8516186449479EB9A7DEBA /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -381,7 +381,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              0FBD1722A0CC41D7B7280DB7 /* Release */ = {
+              016BBF4CD48C489E9A1D2643 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -390,7 +390,7 @@ exit 0";
                      };
                      name = Release;
               };
-              21942BE1BA044EFE9C7B786B /* MinSizeRel */ = {
+              88588502C2FE4F5D9653CC0C /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -399,7 +399,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              AC515178564E4346BE97904E /* RelWithDebInfo */ = {
+              0BAC9914F04C4AD0BCBC5C7F /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -408,7 +408,7 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              669288BB1455492BA43352C0 /* Debug */ = {
+              7EEFAD7640D1426F903EBFAC /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -429,7 +429,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              92B5F1D5622941938FB0C1F7 /* Release */ = {
+              07A2CBFBF23C4B87B7DE4BBB /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -450,7 +450,7 @@ exit 0";
                      };
                      name = Release;
               };
-              DF2AC0E9203A40E196555D4B /* MinSizeRel */ = {
+              F6F84774DD494A36BD45D2A3 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -471,7 +471,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              B13031F0791A4E3EB861CF5F /* RelWithDebInfo */ = {
+              036AAE9038004245BC603ECE /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -492,7 +492,7 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              0642ED70A7DF4103881787DA /* Debug */ = {
+              85BC1AEC1A0B42479D9DA4A1 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -513,7 +513,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              3A62CD480AF34862A281940F /* Release */ = {
+              D9B74F43CEB34E31AD9DF7AB /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -534,7 +534,7 @@ exit 0";
                      };
                      name = Release;
               };
-              F2B966B0B01B4A8DB3E2B355 /* MinSizeRel */ = {
+              9F67B39084354BA6A466B2D8 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -555,7 +555,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              3512DFF70B564DDB80A499C8 /* RelWithDebInfo */ = {
+              F38782C757A5476C971B5FDF /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             COMBINE_HIDPI_IMAGES = YES;
@@ -576,7 +576,7 @@ exit 0";
                      };
                      name = RelWithDebInfo;
               };
-              C60156E68E6F40428926769B /* Debug */ = {
+              45AE1D63D9C94475A983B0CD /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -603,7 +603,7 @@ exit 0";
                      };
                      name = Debug;
               };
-              F51D72D1581943D4B501BFD0 /* Release */ = {
+              8371EC3E0BB544B18714ECA7 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -630,7 +630,7 @@ exit 0";
                      };
                      name = Release;
               };
-              9A10947C6DBC4E5A842D237F /* MinSizeRel */ = {
+              3C0F630C34AA4F6E9DF73979 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -657,7 +657,7 @@ exit 0";
                      };
                      name = MinSizeRel;
               };
-              2630D6063F004AB9B2B39327 /* RelWithDebInfo */ = {
+              2A1E5CEF92804E0C9A4EB6DA /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -687,51 +687,51 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-              8D973398E61A4E8D87123522 /* Build configuration list for PBXProject  "readedid" */ = {
+              6733926084F346B19B6E126F /* Build configuration list for PBXProject  "readedid" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            FF8B1EB0A1C24ED8A1FF9683 /* Debug */,
-                            0FBD1722A0CC41D7B7280DB7 /* Release */,
-                            21942BE1BA044EFE9C7B786B /* MinSizeRel */,
-                            AC515178564E4346BE97904E /* RelWithDebInfo */,
+                            EA8516186449479EB9A7DEBA /* Debug */,
+                            016BBF4CD48C489E9A1D2643 /* Release */,
+                            88588502C2FE4F5D9653CC0C /* MinSizeRel */,
+                            0BAC9914F04C4AD0BCBC5C7F /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              1E489ADE705B493AA60479B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+              395953D66C0941EEBF9D6198 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            669288BB1455492BA43352C0 /* Debug */,
-                            92B5F1D5622941938FB0C1F7 /* Release */,
-                            DF2AC0E9203A40E196555D4B /* MinSizeRel */,
-                            B13031F0791A4E3EB861CF5F /* RelWithDebInfo */,
+                            7EEFAD7640D1426F903EBFAC /* Debug */,
+                            07A2CBFBF23C4B87B7DE4BBB /* Release */,
+                            F6F84774DD494A36BD45D2A3 /* MinSizeRel */,
+                            036AAE9038004245BC603ECE /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              680072E2DF5441D0AB9F5976 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+              68B1A74C0BC24D9195DF5B5A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            0642ED70A7DF4103881787DA /* Debug */,
-                            3A62CD480AF34862A281940F /* Release */,
-                            F2B966B0B01B4A8DB3E2B355 /* MinSizeRel */,
-                            3512DFF70B564DDB80A499C8 /* RelWithDebInfo */,
+                            85BC1AEC1A0B42479D9DA4A1 /* Debug */,
+                            D9B74F43CEB34E31AD9DF7AB /* Release */,
+                            9F67B39084354BA6A466B2D8 /* MinSizeRel */,
+                            F38782C757A5476C971B5FDF /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              D16E16560C034081B66837C5 /* Build configuration list for PBXNativeTarget "readedid" */ = {
+              AB90710723EC4AFBA69F505B /* Build configuration list for PBXNativeTarget "readedid" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            C60156E68E6F40428926769B /* Debug */,
-                            F51D72D1581943D4B501BFD0 /* Release */,
-                            9A10947C6DBC4E5A842D237F /* MinSizeRel */,
-                            2630D6063F004AB9B2B39327 /* RelWithDebInfo */,
+                            45AE1D63D9C94475A983B0CD /* Debug */,
+                            8371EC3E0BB544B18714ECA7 /* Release */,
+                            3C0F630C34AA4F6E9DF73979 /* MinSizeRel */,
+                            2A1E5CEF92804E0C9A4EB6DA /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
 /* End XCConfigurationList section */
        };
-       rootObject = 441FCFFA1F3E4E4FADA4942D;
+       rootObject = E7637BEFFA87457FBBA8AA73;
 }
