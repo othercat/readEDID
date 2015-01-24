@@ -6,6 +6,10 @@ readEDID is originally from the 10-years-old idea “ReadEDID” to get the LCD 
 Histroy
 -
 ---------
+version 1.0.2
+
+change CMAKE_OSX_SYSROOT to macosx10.9 for brew
+
 version 1.0.1
 
 add support with `Homebrew`
