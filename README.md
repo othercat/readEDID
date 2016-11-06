@@ -6,6 +6,9 @@ readEDID is originally from the 10-years-old idea “ReadEDID” to get the LCD 
 Histroy
 -
 ---------
+20161105
+fixed typo issue for packages
+
 version 1.0.3
 
 add binary and README file 
@@ -119,3 +122,5 @@ Documentation
 ---------
 
 original Year2003 source: <http://homepage.mac.com/arekkusu/bugs/ReadEDID.dmg>
+
+
